@@ -26,5 +26,8 @@ public class Agenda {
         telefone.cor = "Rosa";
         telefone.marca = "S20";
         System.out.println(telefone.marca + "   " + telefone.cor);
+
+        telefone.Tocar ("Pagode");
+                System.out.println (telefone.contato.nome);
     }
 }

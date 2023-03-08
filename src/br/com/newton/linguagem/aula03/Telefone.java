@@ -7,4 +7,8 @@ public class Telefone
     public String cor;
     public String marca1;
     public String cor2;
+
+    public void Tocar (String estilomusical){
+        System.out.println("Tocando" + estilomusical);
+    }
 }
