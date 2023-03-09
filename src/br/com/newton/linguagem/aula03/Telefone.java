@@ -5,10 +5,24 @@ public class Telefone
     Contato contato;
     public String marca;
     public String cor;
-    public String marca1;
-    public String cor2;
 
-    public void Tocar (String estilomusical){
-        System.out.println("Tocando" + estilomusical);
+
+    public void Tocar (String estilomusical)
+    {
+
+        if (estilomusical.equals("pagode"))
+        {
+            System.out.println("Só tocamos pagode");
+        }
     }
+    public void Ligar (Contato contato)
+    {
+        if (cor.equals("preto") && contato.nome.equals("Juliana"))
+        {
+            System.out.println ("Ligando " + contato.nome);
+        }
+    }
+
+
+
 }
